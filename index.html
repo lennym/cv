@@ -34,6 +34,7 @@
 				<ul class="nav">
 					<li><a href="#summary">About Me</a></li>
 					<li><a href="#work">Work</a></li>
+					<li><a href="#open-source">Open Source Contributions</a></li>
 					<li><a href="#education">Education</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -44,31 +45,50 @@
 		<div class="hero-unit">
 			<h1>Leonard Martin</h1>
 			<h2>Agile, Test-Driven Javascript Developer</h2>
-			<p class="status">Current status: <span class="label label-success">Available for hire</span></p>
 		</div>
 		<h2 id="summary">About Me</h2>
-		<p>I am a freelance web developer with over 6 years experience of building Javascript web-applications for large corporate and enterprise clients.</p>
+		<p>I am a freelance web developer with over 7 years experience of building Javascript web-applications for large corporate and enterprise clients.</p>
 		<p>Having started out life coding on the LAMP stack, I have, since early 2008, specialised in Javascript development, becoming fluent in a number of frameworks and libraries on both the client and the server as well as developing clients' bespoke DOM and UI libraries written in native Javascript.</p>
-		<p>Since mid-2011 I have been focussed on building large-scale enterprise software applications based on Backbone, and more recently, in NodeJS. This has involved making a number of contributions back into the projects used, and also developing and releasing my own open-source tools through npm.</p>
-		<p>Over the course of my career, I have worked for a number of large, high-profile end-clients, including Barclays, British Gas, BSkyB, HSBC, JWT, Lloyds TSB, Marks &amp; Spencer, O2, RBS Group, Santander, Unilever and Virgin Atlantic.</p>
+		<p>In recent years I have been focussed on building robust, resilient and scalable software applications based on NodeJS. This has involved making a number of contributions back into the projects used, and also developing and releasing my own open-source tools through npm.</p>
+		<p>Over the course of my career, I have worked for a number of large, high-profile end-clients, including Barclays, British Gas, BSkyB, GOV.UK, The Home Office, HSBC, JWT, Lloyds TSB, Marks &amp; Spencer, O2, RBS Group, Santander, Unilever and Virgin Atlantic.</p>
 		<h2 id="work">Work</h2>
-        <div class="row">
-            <div class="span3"><h3>Feb '13-Feb '14</h3></div>
-            <div class="span9">
-                <h3>British Gas Connected Homes<span class="muted"> - NodeJS Developer (contract)</span></h3>
-                <p>Developed Node backend and website for "Hive" remote heating control project. Integrated with 3rd party hardware APIs to construct a cutting-edge web interface for British Gas' new home automation products.</p>
-                <p>Extensive use of NodeJS with Express on the server; Backbone, Stylus and browserify on the client; and automated functional and unit testing with webdriver, mocha, and karma.</p>
-                <p>Independently developed <a href="http://www.github.com/lennym/groundhog">groundhog</a> - an open source tool to assist with automated testing of applications built against APIs.</p>
-                <p>Also worked on Smart Energy Report - a separate dynamic data-visualisation project providing a dashboard onto user data from British Gas smart meters making heavy use of d3.</p>
-                <p>Contributed code back into Express, browserify and number of other open-source tools.</p>
-            </div>
-        </div>
 		<div class="row">
-			<div class="span3"><h3>Sep '12-Feb '13</h3></div>
+      <div class="span3"><h3>Sep '14-Sep '15</h3></div>
+      <div class="span9">
+        <h3>The Home Office<span class="muted"> - NodeJS Developer (contract)</span></h3>
+        <p>Lead NodeJS Developer for the Online Passports Renewal project, one of GDS' 25 exemplar projects.</p>
+        <p>Responsible for stability and resilience of web server for key Government transaction serving many millions of transactions per year.</p>
+        <p>Implemented multi-faceted testing strategy using eslint, mocha and webdriver.</p>
+        <p>Built express router components for [managing multi-step form journeys](https://github.com/UKHomeOffice/passports-form-wizard/graphs/contributors), and the [lower level GET/POST data processing/validation pipeline for individual form submissions](https://github.com/UKHomeOffice/passports-form-controller/graphs/contributors). These have since been released as open source npm modules, and used in other teams across The Home Office and in other Government departments.</p>
+        <p>SC level security cleared.</p>
+      </div>
+    </div>
+		<div class="row">
+      <div class="span3"><h3>Feb '14-Aug '14</h3></div>
+      <div class="span9">
+        <h3>Government Digital Service<span class="muted"> - NodeJS Developer (contract)</span></h3>
+        <p>Worked on [web server and front-end app](https://github.com/alphagov/spotlight/graphs/contributors) development for [GOV.UK Performance Platform](https://www.gov.uk/performance).</p>
+        <p>Refactored an existing purely client-side app to use commonjs components and server-side rendering.</p>
+        <p>Implemented a [data-driven automated test tool](https://github.com/alphagov/cheapseats/graphs/contributors) with wd and phantomjs to dynamically test page functionality.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span3"><h3>Feb '13-Feb '14</h3></div>
+      <div class="span9">
+        <h3>British Gas Connected Homes<span class="muted"> - NodeJS Developer (contract)</span></h3>
+        <p>Developed Node backend and website for "Hive" remote heating control project. Integrated with 3rd party hardware APIs to construct a cutting-edge web interface for British Gas' new home automation products.</p>
+        <p>Extensive use of NodeJS with Express on the server; Backbone, Stylus and browserify on the client; and automated functional and unit testing with webdriver, mocha, and karma.</p>
+        <p>Independently developed <a href="http://www.github.com/lennym/groundhog">groundhog</a> - an open source tool to assist with automated testing of applications built against APIs.</p>
+        <p>Also worked on Smart Energy Report - a separate dynamic data-visualisation project providing a dashboard onto user data from British Gas smart meters making heavy use of d3.</p>
+        <p>Contributed code back into Express, browserify and number of other open-source tools.</p>
+      </div>
+    </div>
+		<div class="row">
+			<div class="span3"><h3>Jun '11-Feb '13</h3></div>
 			<div class="span9">
 				<h3>Bonza Gaming<span class="muted"> - Javascript Developer (contract)</span></h3>
 				<p>Developed application platform for social gaming start-up.</p>
-				<p>Extensive use of Backbone for core application, Require for dependency management and compilation, as well as Jasmine, Mocha and Selenium test libraries. Also some use of Node with Express. Contributed code back into the Backbone-forms project.</p>
+				<p>Extensive use of Backbone for core application, RequireJS for dependency management and compilation, as well as Jasmine, Mocha and Selenium test libraries. Also some use of Node with Express. Contributed code back into the Backbone-forms project.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -77,11 +97,11 @@
 				<h3>Hogarth Worldwide<span class="muted"> - Javascript Developer (contract)</span></h3>
 				<p>Developed front-end for industry-leading workflow and asset management software built on Backbone platform.</p>
 				<p>Built SVG based document annotation and approval tools.</p>
-				<p>Extensive use of Backbone - contributing changes and improvements back into core project - and qUnit test framework.</p>
+				<p>Extensive use of Backbone - contributing changes and improvements back into core project.</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="span3"><h3>Aug-Nov '11</h3></div>
+			<div class="span3"><h3>Aug '10-Nov '11</h3></div>
 			<div class="span9">
 				<h3>BSkyB<span class="muted"> - Javascript Developer (contract)</span></h3>
 				<p>Developed BSkyB's next-generation call-centre and telephony application.</p>
@@ -89,17 +109,10 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="span3"><h3>Jul '11</h3></div>
-			<div class="span9">
-				<h3>Archibald Ingall Stretton<span class="muted"> - UI Developer (contract)</span></h3>
-				<p>Built HTML5/CSS3 front-end for a campaign site, integrated with Facebook Connect API.</p>
-			</div>
-		</div>
-		<div class="row">
 			<div class="span3"><h3>Jun '11</h3></div>
 			<div class="span9">
 				<h3>McCann-Erickson<span class="muted"> - UI Developer (contract)</span></h3>
-				<p>Developed a proof-of-concept Node.js/WebSockets application consuming real-time data from Twitter Streaming API, with a rich visual interface using CSS3.</p>
+				<p>Developed a proof-of-concept Node.js/WebSockets application consuming real-time data from Twitter Streaming API, with a rich visual interface.</p>
 			</div>
 		</div>
 		<div class="row">
@@ -114,19 +127,27 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="span3"><h3>Nov '09-Aug '10</h3></div>
-			<div class="span9">
-				<h3><a href="http://jwt.com">JWT.com</a><span class="muted"> - Lead UI Developer</span></h3>
-				<p>Lead UI developer and technical architect. Developed middleware with Zend PHP framework to parse and consume content from a CMS API with an AJAX/JSON interface onto a highly-dynamic front-end.</p>
-				<p>Created jQuery-based application interface, including a number of plugins supporting custom UI elements such as HTML5 video player.</p>
-			</div>
-		</div>
-		<div class="row">
 			<div class="span3"><h3>Jan '07-Aug '10</h3></div>
 			<div class="span9">
 				<h3>Heathwallace/JWT<span class="muted"> - Senior Javascript Developer</span></h3>
 				<p>Led a team of 3 Javascript developers, specialising in building web-applications for financial sector clients.</p>
 				<p>Developed common set of interface tools and company standard plugin-libraries. Was responsible for training, resource management and code-standards within the team as well as liaising with both project-managers and clients extensively at all stages of projects from conception to completion.</p>
+				<p>Major projects include acting as Lead UI developer and technical architect for JWT.com, the parent company's flagship website. Developed highly dynamic single-page front-end and web server working in conjunction with a globally distributed team based in London, New York and Buenos Aires.</p>
+			</div>
+		</div>
+		<h2 id="open-source">Open Source Contributions</h2>
+		<div class="row">
+			<div class="span12">
+				<p>Independent authoring of a number of open source npm modules including:</p>
+				<ul>
+					<li>[i18n-future](https://github.com/lennym/i18n-future) - Translation and multi-language content for Node. Originally inspired by the i18next project, with a module-safe port of the API to use in a Node environment. Used in production by a number of projects in The Home Office.</li>
+					<li>[npm-sass](https://github.com/lennym/npm-sass) - A wrapper for node-sass which has 'npm install path'-aware `includePaths` settings, so that npm modules can be safely used in sass projects with complex dependency trees. Used in production by a number of projects in The Home Office.</li>
+					<li>[reqres](https://github.com/lennym/reqres) - Mock express request and response objects for testing express routers and middlewares.</li>
+					<li>[nimm](https://github.com/lennym/nimm) - A CLI wrapper around a node process to detect when the process fails due to missing dependencies and prompts to install.</li>
+					<li>[moment-business-time](https://github.com/lennym/moment-business-time) - A plugin for the moment date library for performing calculations with business days and hours.</li>
+					<li>[express-healthcheck](https://github.com/lennym/express-healthcheck) - Simple express middleware for creating healthcheck endpoints.</li>
+					<li>[busboy-body-parser](https://github.com/lennym/busboy-body-parser) - Middleware for express wrapping the busboy multipart form handler to parse multipart form submissions in a similar way to express default body parsers.</li>
+				</ul>
 			</div>
 		</div>
 		<h2 id="education">Education</h2>
@@ -148,11 +169,11 @@
 		<h2 id="contact">Contact</h2>
 		<dl>
 			<dt>Email</dt>
-			<dd><a href="mailto:leonard.martin@gmail.com">leonard.martin@gmail.com</a></dd>
+			<dd><a href="mailto:leonard.martin@gmail.com">hello@lennym.co.uk</a></dd>
 			<dt>Github</dt>
 			<dd><a href="http://github.com/lennym">http://github.com/lennym</a></dd>
-			<dt>LinkedIn</dt>
-			<dd><a href="http://www.linkedin.com/profile/view?id=26527284">http://www.linkedin.com/profile/view?id=26527284</a></dd>
+			<dt>npm</dt>
+			<dd><a href="http://www.npmjs.com/~lennym">http://www.npmjs.com/~lennym</a></dd>
 			<dt>Twitter</dt>
 			<dd><a href="http://twitter.com/lennym">http://twitter.com/lennym</a></dd>
 		</dl>
